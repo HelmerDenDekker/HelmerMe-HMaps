@@ -6,3 +6,4 @@
 /.vs/HMaps
 /HMaps.Models/obj
 /HMaps.Wpf/obj
+/HMaps.Wpf/bin/Debug/netcoreapp3.1
