@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMaps.Wpf", "HMaps.Wpf\HMaps.Wpf.csproj", "{CBF90F48-8423-4E56-895D-8C2A1B0DF5D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HMaps.Wpf", "HMaps.Wpf\HMaps.Wpf.csproj", "{CBF90F48-8423-4E56-895D-8C2A1B0DF5D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{85275BEA-F821-4D35-914F-D69003F37640}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMaps.Models", "HMaps.Models\HMaps.Models.csproj", "{3ADB8170-C235-4290-886A-46D944CE7236}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,10 @@ Global
 		{CBF90F48-8423-4E56-895D-8C2A1B0DF5D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBF90F48-8423-4E56-895D-8C2A1B0DF5D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBF90F48-8423-4E56-895D-8C2A1B0DF5D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ADB8170-C235-4290-886A-46D944CE7236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ADB8170-C235-4290-886A-46D944CE7236}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ADB8170-C235-4290-886A-46D944CE7236}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ADB8170-C235-4290-886A-46D944CE7236}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
